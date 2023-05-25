@@ -1,0 +1,159 @@
+.navbarLogo{
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbarLogo{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbarLogo{
+    width: 180px;
+  }
+}
+
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  
+
+  .navbar .nav-item {
+    padding: 0.5em 1em;
+  }
+}
+.navbar .navbar-nav {
+  margin-top: 0.5em;
+
+}
+
+.img-custom{
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .img-custom {
+      width: 170px;
+  }
+}
+
+
+.bg-custom {
+  background-color: #313131;
+  
+}
+
+
+
+.button-logout{
+border: none;
+background: none;
+}
+
+.boxNavbar{
+  height: 40px;
+  background-color: #313131;
+  
+}
+
+@media screen and (max-width: 700px) {
+.custom-footer {
+  padding: 20px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+.customDropdown {
+  padding: 5px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .boxNavbar {
+    display: flex;
+    justify-content: start !important;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .custom-footer {
+    height: 115vh;
+  }
+}
+
+#navColor{
+  transition: 1s;
+}
+
+.navbar-scrolled {
+  position: sticky;
+  top: 0%;
+  background-color:  rgb(225, 27, 27);
+  height: 50px;
+  z-index: 100;
+  transition: 0.8s;
+}
+
+#navLogo1{
+width: 50px;
+margin-top: 10px;
+
+}
+
+
+
+.search-menu{
+  position: absolute;
+  top: 5px;
+  left: 100px;
+
+
+}
+
+.menu-search{
+  position: absolute;
+  top: 5px;
+  right: 100px;
+
+}
+
+.eye{
+  position: absolute;
+  top: 2px;
+
+
+}
+.searchMenu2{
+  width: 130px;
+  height: 100px;
+}
+
+
+
